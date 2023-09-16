@@ -1,0 +1,606 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="themify-icons.css">
+    
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <div class="top-message" bis_skin_checked="1">
+                <p>
+  <span>
+  <marquee><h3>NATIONWIDE FREE DELIVERY ON ORDERS ABOVE 1,500/- <h3></marquee>
+</span>
+ </p>
+            </div>  
+      
+   <nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container-fluid">
+    <a class="navbar-brand"><img src="img/logo.png"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Women
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="wsummer.html">Summer</a></li>
+            <li><a class="dropdown-item" href="wwinter.html">Winter</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="woffers.html">spacial Offers</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Men
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="msummer.html">Summer</a></li>
+            <li><a class="dropdown-item" href="mwinter.html">Winter</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="moffers.html">spacial Offers</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Footwear
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="men.html">Men</a></li>
+            <li><a class="dropdown-item" href="women.html">Women</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<div class="slideshow-container">
+
+<div class="mySlides ">
+<img src="banm/9.jpg" class="img-fluid" alt="Responsive image"></div>
+
+<div class="mySlides ">
+<img src="banm/8.jpg" class="img-fluid" alt="Responsive image">
+</div>
+
+<div class="mySlides">
+  <img src="banm/5.jpg" class="img-fluid" alt="Responsive image">
+</div>
+</div>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+
+<!--offer section-->
+<div class="Offers">
+  <div class="container">
+    <div class="row">
+     <!--offer box one-->
+     <div class="col-sm-6 col-lg-4 mb-lg-0 mb-4">
+       <a href="#">
+         <div class="offer-box text-center position-relative">
+          <div class="offer-inner">
+            <div class="offer-image position-relative overflow-hidden">
+             <img src="m/7.jpg" alt="Offers" class="img-fluid">
+             <div class="offer-overlay"></div>
+            </div>
+            <div class="offer-info">
+              <div class="offer-info-inner">
+              <p class="heading-bigger text-capitalize">Sale 30%</p>
+              <p class="offer-title-1 text-uppercase font-weight-bold">Don't Miss This Chance</p>
+              <button type="button" class="btn btn-outline-danger text-uppercase mt-4">Shop Now</button>
+               </div>
+            </div>
+          </div>
+         </div>
+       </a>
+     </div>
+
+ <div class="col-sm-6 col-lg-4 mb-lg-0 mb-4">
+       <a href="#">
+         <div class="offer-box text-center position-relative">
+          <div class="offer-inner">
+            <div class="offer-image position-relative overflow-hidden">
+             <img src="m/p.jpg" alt="Offers" class="img-fluid">
+             <div class="offer-overlay"></div>
+            </div>
+            <div class="offer-info">
+              <div class="offer-info-inner">
+              <p class="heading-bigger text-capitalize">Sale 30%</p>
+              <p class="offer-title-1 text-uppercase font-weight-bold">Don't Miss This Chance</p>
+              <button type="button" class="btn btn-outline-danger text-uppercase mt-4">Shop Now</button>
+               </div>
+            </div>
+          </div>
+         </div>
+       </a>
+     </div>
+
+      <div class="col-sm-6 col-lg-4 mb-lg-0 mb-4">
+       <a href="#">
+         <div class="offer-box text-center position-relative">
+          <div class="offer-inner">
+            <div class="offer-image position-relative overflow-hidden">
+             <img src="m/r.jpg" alt="Offers" class="img-fluid">
+             <div class="offer-overlay"></div>
+            </div>
+            <div class="offer-info">
+              <div class="offer-info-inner">
+              <p class="heading-bigger text-capitalize">Sale 30%</p>
+              <p class="offer-title-1 text-uppercase font-weight-bold">Don't Miss This Chance</p>
+              <button type="button" class="btn btn-outline-danger text-uppercase mt-4">Shop Now</button>
+               </div>
+            </div>
+          </div>
+         </div>
+       </a>
+     </div>
+      
+      <!--offer section-->
+<div class="Offers">
+  
+    <div class="row">
+     <!--offer box one-->
+     <div class="col-sm-6 col-lg-4 mb-lg-0 mb-4">
+       <a href="#">
+         <div class="offer-box text-center position-relative">
+          <div class="offer-inner">
+            <div class="offer-image position-relative overflow-hidden">
+             <img src="m/p.jpg" alt="Offers" class="img-fluid">
+             <div class="offer-overlay"></div>
+            </div>
+            <div class="offer-info">
+              <div class="offer-info-inner">
+              <p class="heading-bigger text-capitalize">Sale 30%</p>
+              <p class="offer-title-1 text-uppercase font-weight-bold">Don't Miss This Chance</p>
+              <button type="button" class="btn btn-outline-danger text-uppercase mt-4">Shop Now</button>
+               </div>
+            </div>
+          </div>
+         </div>
+       </a>
+     </div>
+
+ <div class="col-sm-6 col-lg-4 mb-lg-0 mb-4">
+       <a href="#">
+         <div class="offer-box text-center position-relative">
+          <div class="offer-inner">
+            <div class="offer-image position-relative overflow-hidden">
+             <img src="m/t.jpg" alt="Offers" class="img-fluid">
+             <div class="offer-overlay"></div>
+            </div>
+            <div class="offer-info">
+              <div class="offer-info-inner">
+              <p class="heading-bigger text-capitalize">Sale 30%</p>
+              <p class="offer-title-1 text-uppercase font-weight-bold">Don't Miss This Chance</p>
+              <button type="button" class="btn btn-outline-danger text-uppercase mt-4">Shop Now</button>
+               </div>
+            </div>
+          </div>
+         </div>
+       </a>
+     </div>
+
+      <div class="col-sm-6 col-lg-4 mb-lg-0 mb-4">
+       <a href="#">
+         <div class="offer-box text-center position-relative">
+          <div class="offer-inner">
+            <div class="offer-image position-relative overflow-hidden">
+             <img src="m/7.jpg" alt="Offers" class="img-fluid">
+             <div class="offer-overlay"></div>
+            </div>
+            <div class="offer-info">
+              <div class="offer-info-inner">
+              <p class="heading-bigger text-capitalize">Sale 30%</p>
+              <p class="offer-title-1 text-uppercase font-weight-bold">Don't Miss This Chance</p>
+              <button type="button" class="btn btn-outline-danger text-uppercase mt-4">Shop Now</button>
+               </div>
+            </div>
+          </div>
+         </div>
+       </a>
+     </div>
+ </div>
+</div>
+</div>
+</div>
+</div>
+ 
+ <!--products section -->
+ <section id="products" class="products">
+   <div class="container">
+     <div class="row">
+       <div class="col-sm-12">
+         <div class="headline text-center mb-5">
+           <h2 class="pb-3 position-relative d-inline-block">FEATURED PRODUCTS</h2>
+         </div>
+       </div>
+     </div>
+     <div class="row">
+       <div class="col-sm-6 col-lg-4">
+         <a href="#" class="d-block text-center mb-4">
+           <div class="product-list">
+             <div class="product-image position-relative">
+               <span class="Sale">Sale</span>
+               <img src="m/7.jpg" class="img-fluid product-image-first">
+                <img src="m/t.jpg" class="img-fluid product-image-secondary">
+             </div>
+             <div class="product-name pt-3">
+               <h3 class="text-capitalize">Winter Long Sleeve Black</h3>
+               <p class="mb-0 amount">$400.00 <del>$580.00</del></p>
+               <div class="py-1">
+                 <span class="ti-star active"></span>
+                  <span class="ti-star active"></span>
+                   <span class="ti-star active"></span>
+                    <span class="ti-star active"></span>
+                     <span class="ti-star"></span>
+               </div>
+               <button type="button" class="add_to_cart">Buy Now</button>
+             </div>
+           </div>
+         </a>
+       </div>
+       <div class="col-sm-6 col-lg-4">
+         <a href="#" class="d-block text-center mb-4">
+           <div class="product-list">
+             <div class="product-image position-relative">
+               <span class="Sale">Sale</span>
+               <img src="m/p.jpg" class="img-fluid product-image-first">
+                <img src="m/7.jpg" class="img-fluid product-image-secondary">
+             </div>
+             <div class="product-name pt-3">
+               <h3 class="text-capitalize">Winter Long Sleeve Black</h3>
+               <p class="mb-0 amount">$400.00 <del>$580.00</del></p>
+               <div class="py-1">
+                 <span class="ti-star active"></span>
+                  <span class="ti-star active"></span>
+                   <span class="ti-star active"></span>
+                    <span class="ti-star active"></span>
+                     <span class="ti-star active"></span>
+               </div>
+               <button type="button" class="add_to_cart">Buy Now</button>
+             </div>
+           </div>
+         </a>
+       </div>
+       <div class="col-sm-6 col-lg-4">
+         <a href="#" class="d-block text-center mb-4">
+           <div class="product-list">
+             <div class="product-image position-relative">
+               <span class="Sale">Sale</span>
+               <img src="m/t.jpg" class="img-fluid product-image-first">
+                <img src="m/7.jpg" class="img-fluid product-image-secondary">
+             </div>
+             <div class="product-name pt-3">
+               <h3 class="text-capitalize">Winter Long Sleeve Black</h3>
+               <p class="mb-0 amount">$400.00 <del>$580.00</del></p>
+               <div class="py-1">
+                 <span class="ti-star active"></span>
+                  <span class="ti-star active"></span>
+                   <span class="ti-star active"></span>
+                    <span class="ti-star"></span>
+                     <span class="ti-star"></span>
+               </div>
+               <button type="button" class="add_to_cart">Buy Now</button>
+             </div>
+           </div>
+         </a>
+       </div>
+      <div class="col-sm-6 col-lg-4">
+         <a href="#" class="d-block text-center mb-4">
+           <div class="product-list">
+             <div class="product-image position-relative">
+               <span class="Sale">Sale</span>
+               <img src="m/p.jpg" class="img-fluid product-image-first">
+                <img src="m/7.jpg" class="img-fluid product-image-secondary">
+             </div>
+             <div class="product-name pt-3">
+               <h3 class="text-capitalize">Winter Long Sleeve Black</h3>
+               <p class="mb-0 amount">$400.00 <del>$580.00</del></p>
+               <div class="py-1">
+                 <span class="ti-star active"></span>
+                  <span class="ti-star"></span>
+                   <span class="ti-star"></span>
+                    <span class="ti-star"></span>
+                     <span class="ti-star"></span>
+               </div>
+               <button type="button" class="add_to_cart">ADD TO CART</button>
+             </div>
+           </div>
+         </a>
+       </div>
+       <div class="col-sm-6 col-lg-4">
+         <a href="#" class="d-block text-center mb-4">
+           <div class="product-list">
+             <div class="product-image position-relative">
+               <span class="Sale">Sale</span>
+               <img src="m/r.jpg" class="img-fluid product-image-first">
+                <img src="m/t.jpg" class="img-fluid product-image-secondary">
+             </div>
+             <div class="product-name pt-3">
+               <h3 class="text-capitalize">Winter Long Sleeve Black</h3>
+               <p class="mb-0 amount">$400.00 <del>$580.00</del></p>
+               <div class="py-1">
+                 <span class="ti-star active"></span>
+                  <span class="ti-star active "></span>
+                   <span class="ti-star"></span>
+                    <span class="ti-star"></span>
+                     <span class="ti-star"></span>
+               </div>
+               <button type="button" class="add_to_cart">ADD TO CART</button>
+             </div>
+           </div>
+         </a>
+       </div>
+       <div class="col-sm-6 col-lg-4">
+         <a href="#" class="d-block text-center mb-4">
+           <div class="product-list">
+             <div class="product-image position-relative">
+               <span class="Sale">Sale</span>
+               <img src="m/7.jpg" class="img-fluid product-image-first">
+                <img src="m/t.jpg" class="img-fluid product-image-secondary">
+             </div>
+             <div class="product-name pt-3">
+               <h3 class="text-capitalize">Winter Long Sleeve Black</h3>
+               <p class="mb-0 amount">$400.00 <del>$580.00</del></p>
+               <div class="py-1">
+                 <span class="ti-star active"></span>
+                  <span class="ti-star active"></span>
+                   <span class="ti-star active"></span>
+                    <span class="ti-star"></span>
+                     <span class="ti-star"></span>
+               </div>
+               <button type="button" class="add_to_cart">ADD TO CART</button>
+             </div>
+           </div>
+         </a>
+       </div>
+     </div>
+     </div>
+ </section>
+
+<!--up to 70% off -->
+<div class="overflow-hidden my-5">
+  <div class="row">
+    <div class="col-sm-12 up_to_off">
+      <img src="ban/Ll.jpg" alt="Offers" class="img-fluid w-100">
+      <div class="up_to_content">
+        <h2>UP TO 70% OFF WINTERSALE!</h2>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Summer section-->
+<section id="Summer" class="Summer">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="headline text-center mb-5">
+           <h2 class="pb-3 position-relative d-inline-block">SUMMER SALE</h2>
+         </div>
+      </div>
+      <div class="col-sm-12 col-lg-7 text-center text-lg-start">
+        <div class="countdown-container">
+          <h2 class="text-uppercase">Stylish Women dress</h2>
+          <p class="my-4">A halter dress is ideal for summer. Featuring a strapless or sleeveless upper half, with a tie around the neck. Some halter necks don’t have a bow but fabric secured around the neck. This style of dress is most flattering for those who wish to show off their ample shoulders.</p>
+          <u class="list-unstyled countdown-counter">
+            <li><span class="fs-1 d-block" id="days">00</span>Days</li>
+            <li><span class="fs-1 d-block" id="hours">00</span>Hr</li>
+            <li><span class="fs-1 d-block" id="min">00</span>Min</li>
+            <li><span class="fs-1 d-block" id="sec">00</span>Sec</li>
+          </u>
+          <span class="countdown-price h3 d-block mb-4">$420.00<del>$670.00</del></span>
+          <button type="button" class="btn btn-danger">ADD TO CART</button>
+        </div>
+        
+      </div>
+      <div class="col-sm-12 col-lg-4">
+        <div class="Summer-img position-relative">
+          <span class="Sale">Sale</span>
+          <img src="m/7.jpg" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--Summer section-->
+<section id="testimonial" class="testimonial">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="headline text-center mb-5">
+           <h2 class="pb-3 position-relative d-inline-block">Testimonial</h2>
+        </div>
+      </div>
+           <div class="col-sm-12 col-lg-8 offset-lg-2 text-center">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="testimonial-wrapper">
+                   <div class="row">
+                    <div class="col-sm-12">
+                      <img src="img/t15.jpg" alt="user" class="img-fluid">
+                    </div>
+                    <div class="username">
+                      <h3>Yasmin Fareed, web-developer / developer</h3>
+                      <span>Technical services</span>
+                      <p>I am jasmeenfareed, a professional Web Developer and have done work for almost 20+companies all over the world. Now I am here to show my expertise . I always believe that not quantity but the quality is king in freelancing. I will 'NOT' stop tweaking unless you say WOW. Request the custom offer and I will give you the best. Having experience of several years in web development, designing, mockup designing, packaging designing, label designing.</p>
+                    </div>
+                  </div>
+               </div>
+              </div>
+                <div class="carousel-item">
+                  <div class="testimonial-wrapper">
+                   <div class="row">
+                    <div class="col-sm-12">
+                      <img src="img/t15.jpg" alt="user" class="img-fluid">
+                    </div>
+                    <div class="username">
+                      <h3>Yasmin Fareed, web-developer / developer</h3>
+                      <span>Technical services</span>
+                      <p>I am jasmeenfareed, a professional Web Developer and have done work for almost 20+companies all over the world. Now I am here to show my expertise . I always believe that not quantity but the quality is king in freelancing. I will 'NOT' stop tweaking unless you say WOW. Request the custom offer and I will give you the best. Having experience of several years in web development, designing, mockup designing, packaging designing, label designing.</p>
+                    </div>
+                  </div>
+               </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true">
+                  <span class="ti-angle-left slider-icon"></span>
+                </span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true">
+                  <span class="ti-angle-right slider-icon"></span>
+                </span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+           </div>
+    </div>
+  </div>
+</section>
+
+<!--contact section-->
+
+<section id="contact">
+<div class="contact">
+<div class="container">
+  <div class="mb-5 text-center">
+    <h5>Lets's start a conversation!</h5>
+    <h2 class="fw-bold">Contact Us</h2>
+  </div>
+  <div class="row">
+    <div class="col-lg-5 col-md-5">
+      <h4 class="fw-bold">Contact Info</h4>
+      <ul class="info list-unstyled">
+        <li class="d-flex align-items-center">
+          <span class="pe-3 ti-location-pin fs-3"></span>
+          <p><a href="#">Find path</a></p>
+        </li>
+        <li class="d-flex align-items-center">
+          <span class="pe-3 ti-mobile fs-3"></span>
+          <p><a href="">Call Us: +92-345-2544101</a></p>
+        </li>
+        <li class="d-flex align-items-center">
+          <span class="pe-3 ti-envelope fs-3"></span>
+          <p><a href="">Email Us: jasmeenfareed36@gmail.com</a></p>
+        </li>
+      </ul>
+    </div>
+    <div class="col-lg-7 col-md-7 pt-lg-0 pt-md-0 pt-4">
+      <form>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="name" class="form-control" name="name" id="name" placeholder="Your Nmae">
+            </div>
+          </div>
+          <di class="col-md-6">
+            <div class="form-group">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Email Adress">
+            </div>
+          </div>
+        <di class="col-md-12">
+          <div class="form-group">
+            <textarea class="textarea" name="message" cols="30" rows="4" id="message" placeholder="Write your message"></textarea>
+          </div>
+        </di>
+        <div class="col-md-12">
+          <button class="btn btn-danger">
+            <span class="ti-rocket pe-2 fs-5"></span>Send Message</button>
+          </div>
+        </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+
+<!--Footer section-->
+<div class="p-3 copyright">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-12 col-lg-6 p-1 p-lg-3 text-center text-lg-start">
+        <p class="my-0">Copyright @ 2022 <a href="#">Fashional Hub</a>All Rights Reserved</p>
+      </div>
+      <div class="col-12 col-lg-6 p-1 p-lg-3 text-center text-lg-end">
+        <p>Designed By<a href="#" target="_blank">Yasmi Fareed</a>.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+       <!-- Option 1: Bootstrap Bundle with Popper -->
+       <!--
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+ <script type="text/javascript" src="min.js"></script>
+  -->
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="min.js"></script>
+  
+  </body>
+</html>
